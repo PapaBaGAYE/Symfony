@@ -47,3 +47,13 @@ symfony serve
 ```
 symfony server:start
 ```
+
+<hr>
+```
+composer init
+```
+
+**Ajouter twig au projet**
+```
+composer require twig/twig
+```
