@@ -22,5 +22,5 @@ exec("php -S localhost:$port -t public");
 
 **Lancer l'application**
 ```
-php .\bin\server
+php .\bin\server 8000
 ```
