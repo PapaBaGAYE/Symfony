@@ -29,3 +29,8 @@ php .\bin\server 8000
 ```
 symfony new projet_2 --version="6.1.*"
 ```
+
+**Creer une application web tranditionnelle symfony**
+```
+symfony new projet_2 --version="6.1.*" --webapp
+```
