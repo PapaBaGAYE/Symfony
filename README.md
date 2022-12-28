@@ -49,6 +49,7 @@ symfony server:start
 ```
 
 <hr>
+
 ```
 composer init
 ```
@@ -56,4 +57,26 @@ composer init
 **Ajouter twig au projet**
 ```
 composer require twig/twig
+```
+
+```
+<?php
+
+use App\Kernel;
+use Twig\Loader\FileSystemLoader;
+
+// require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
+require_once dirname(__DIR__).'/vendor/autoload.php';
+
+$loader = new FileSystemLoader(dirname(__DIR__).'/templates');
+$twig = new \Twig\Environment($loader, [
+            // "cache" => dirname(__DIR__)."/var/cache",
+        ]);
+
+$users = ['Pape Aly', "Mai", "Astou", "Messi", "Neymar"];
+
+echo $twig->render(
+    'index.html.twig',
+    ['titre' => 'Twig', "users" => $users]
+    );
 ```
