@@ -34,3 +34,7 @@ symfony new projet_2 --version="6.1.*"
 ```
 symfony new projet_2 --version="6.1.*" --webapp
 ```
+
+```
+symfony new projet_2 --version="6.1.*" --full
+```
