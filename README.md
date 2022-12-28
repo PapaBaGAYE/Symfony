@@ -24,3 +24,8 @@ exec("php -S localhost:$port -t public");
 ```
 php .\bin\server 8000
 ```
+
+**Creer un projet symfony autrement**
+```
+symfony new projet_2 --version="6.1.*"
+```
