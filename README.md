@@ -38,3 +38,12 @@ symfony new projet_2 --version="6.1.*" --webapp
 ```
 symfony new projet_2 --version="6.1.*" --full
 ```
+
+**Lancer l'application**
+```
+symfony serve
+```
+
+```
+symfony server:start
+```
