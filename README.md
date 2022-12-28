@@ -9,3 +9,18 @@ composer create-project symfony/skeleton:"6.2.*" projet_1
 ```
 composer require webapp
 ```
+
+**creer notre excetuble pour le server**
+```
+#!/usr/bin/env php
+<?php
+
+$port = isset($argv[1]) ? $argv[1] : 80;
+
+exec("php -S localhost:$port -t public");
+```
+
+**Lancer l'application**
+```
+php .\bin\server
+```
