@@ -54,6 +54,8 @@ symfony server:start
 composer init
 ```
 
+## TWIG
+
 **Ajouter twig au projet**
 ```
 composer require twig/twig
@@ -79,4 +81,11 @@ echo $twig->render(
     'index.html.twig',
     ['titre' => 'Twig', "users" => $users]
     );
+```
+
+## DOCTRINE ORM
+
+**Installation de doctrine**
+```
+pass
 ```
