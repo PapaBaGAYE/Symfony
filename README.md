@@ -86,6 +86,11 @@ echo $twig->render(
 ## DOCTRINE ORM
 
 **Installation de doctrine**
+
 ```
-pass
+comopser require symfony/orm-pack 
+```
+
+```
+comopser require --dev symfony/maker-bundle 
 ```
