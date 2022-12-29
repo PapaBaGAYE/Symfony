@@ -88,11 +88,11 @@ echo $twig->render(
 **Installation de doctrine**
 
 ```
-comopser require symfony/orm-pack 
+composer require symfony/orm-pack
 ```
 
 ```
-comopser require --dev symfony/maker-bundle 
+composer require --dev symfony/maker-bundle
 ```
 
 **Creer une base de données**
