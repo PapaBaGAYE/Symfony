@@ -94,3 +94,9 @@ comopser require symfony/orm-pack
 ```
 comopser require --dev symfony/maker-bundle 
 ```
+
+**Creer une base de données**
+
+```
+php bin/console doctrine:database:create
+```
