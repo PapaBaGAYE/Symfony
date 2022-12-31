@@ -100,3 +100,9 @@ composer require --dev symfony/maker-bundle
 ```
 php bin/console doctrine:database:create
 ```
+
+**Creer une entité ( table )**
+
+```
+ php bin/console make:entity
+ ```
