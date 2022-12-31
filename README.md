@@ -104,5 +104,11 @@ php bin/console doctrine:database:create
 **Creer une entité ( table )**
 
 ```
- php bin/console make:entity
- ```
+php bin/console make:entity
+```
+
+**Migrer notre entité**
+
+```
+php bin/console make:migration
+```
